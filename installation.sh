@@ -1,7 +1,7 @@
 #!/bin/bash
 
-configs=(backgrounds config fonts mozilla bashrc)
-destinations=(~/Bilder/ ~/.config/ ~/.fonts/ ~/.mozilla/ ~/.bashrc)
+configs=(backgrounds config fonts bashrc)
+destinations=(~/Bilder/ ~/.config/ ~/.fonts/ ~/.bashrc)
 
 sudo pacman -S polybar feh rofi picom dunst yad xdotool terminator neovim xorg-setxkbmap flameshot polkit nemo ranger
 
